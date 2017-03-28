@@ -1,71 +1,194 @@
-/*
-Syntax error: Invalid CSS after "    |font-size:": expected pseudoclass or pseudoelement, was " 1.2em;"
-        on line 30 of C:/Laboratoria134/Proyectos/FinalProject/src/sass/style.scss
+/* line 3, ../sass/style.scss */
+#map {
+  height: 100%;
+  width: 100%;
+}
 
-Backtrace:
-C:/Laboratoria134/Proyectos/FinalProject/src/sass/style.scss:30
-C:/Laboratoria134/Scout-Installer/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/scss/parser.rb:1129:in `expected'
-C:/Laboratoria134/Scout-Installer/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/scss/parser.rb:1066:in `expected'
-C:/Laboratoria134/Scout-Installer/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/scss/parser.rb:1048:in `expr!'
-C:/Laboratoria134/Scout-Installer/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/scss/parser.rb:777:in `pseudo'
-C:/Laboratoria134/Scout-Installer/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/scss/parser.rb:663:in `simple_selector_sequence'
-C:/Laboratoria134/Scout-Installer/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/scss/parser.rb:623:in `_selector'
-C:/Laboratoria134/Scout-Installer/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/scss/parser.rb:602:in `selector'
-C:/Laboratoria134/Scout-Installer/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/scss/parser.rb:586:in `selector_sequence'
-C:/Laboratoria134/Scout-Installer/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/scss/parser.rb:511:in `ruleset'
-C:/Laboratoria134/Scout-Installer/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/scss/parser.rb:574:in `declaration_or_ruleset'
-org/jruby/RubyProc.java:268:in `call'
-org/jruby/RubyProc.java:228:in `call'
-C:/Laboratoria134/Scout-Installer/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/scss/parser.rb:1104:in `rethrow'
-C:/Laboratoria134/Scout-Installer/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/scss/parser.rb:575:in `declaration_or_ruleset'
-C:/Laboratoria134/Scout-Installer/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/scss/parser.rb:537:in `block_child'
-C:/Laboratoria134/Scout-Installer/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/scss/parser.rb:529:in `block_contents'
-C:/Laboratoria134/Scout-Installer/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/scss/parser.rb:518:in `block'
-C:/Laboratoria134/Scout-Installer/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/scss/parser.rb:512:in `ruleset'
-C:/Laboratoria134/Scout-Installer/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/scss/parser.rb:536:in `block_child'
-C:/Laboratoria134/Scout-Installer/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/scss/parser.rb:529:in `block_contents'
-C:/Laboratoria134/Scout-Installer/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/scss/parser.rb:70:in `stylesheet'
-C:/Laboratoria134/Scout-Installer/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/scss/parser.rb:27:in `parse'
-C:/Laboratoria134/Scout-Installer/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/engine.rb:342:in `_to_tree'
-C:/Laboratoria134/Scout-Installer/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/engine.rb:315:in `_render'
-C:/Laboratoria134/Scout-Installer/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/engine.rb:262:in `render'
-C:/Laboratoria134/Scout-Installer/vendor/gems/gems/compass-0.12.2/lib/compass/compiler.rb:140:in `compile'
-C:/Laboratoria134/Scout-Installer/vendor/gems/gems/compass-0.12.2/lib/compass/compiler.rb:126:in `timed'
-C:/Laboratoria134/Scout-Installer/vendor/gems/gems/compass-0.12.2/lib/compass/compiler.rb:139:in `compile'
-C:/Laboratoria134/Scout-Installer/vendor/gems/gems/compass-0.12.2/lib/compass/logger.rb:45:in `red'
-C:/Laboratoria134/Scout-Installer/vendor/gems/gems/compass-0.12.2/lib/compass/compiler.rb:138:in `compile'
-C:/Laboratoria134/Scout-Installer/vendor/gems/gems/compass-0.12.2/lib/compass/compiler.rb:118:in `compile_if_required'
-C:/Laboratoria134/Scout-Installer/vendor/gems/gems/compass-0.12.2/lib/compass/compiler.rb:103:in `run'
-org/jruby/RubyArray.java:1603:in `each'
-C:/Laboratoria134/Scout-Installer/vendor/gems/gems/compass-0.12.2/lib/compass/compiler.rb:101:in `run'
-C:/Laboratoria134/Scout-Installer/vendor/gems/gems/compass-0.12.2/lib/compass/compiler.rb:126:in `timed'
-C:/Laboratoria134/Scout-Installer/vendor/gems/gems/compass-0.12.2/lib/compass/compiler.rb:100:in `run'
-C:/Laboratoria134/Scout-Installer/vendor/gems/gems/compass-0.12.2/lib/compass/commands/watch_project.rb:147:in `recompile'
-org/jruby/RubyMethod.java:133:in `call'
-org/jruby/RubyProc.java:268:in `call'
-org/jruby/RubyProc.java:228:in `call'
-C:/Laboratoria134/Scout-Installer/vendor/gems/gems/fssm-0.2.9/lib/fssm/path.rb:73:in `run_callback'
-C:/Laboratoria134/Scout-Installer/vendor/gems/gems/fssm-0.2.9/lib/fssm/path.rb:55:in `callback_action'
-C:/Laboratoria134/Scout-Installer/vendor/gems/gems/fssm-0.2.9/lib/fssm/path.rb:35:in `update'
-C:/Laboratoria134/Scout-Installer/vendor/gems/gems/fssm-0.2.9/lib/fssm/state/directory.rb:39:in `modified'
-org/jruby/RubyArray.java:1603:in `each'
-C:/Laboratoria134/Scout-Installer/vendor/gems/gems/fssm-0.2.9/lib/fssm/state/directory.rb:37:in `modified'
-C:/Laboratoria134/Scout-Installer/vendor/gems/gems/fssm-0.2.9/lib/fssm/state/directory.rb:18:in `refresh'
-C:/Laboratoria134/Scout-Installer/vendor/gems/gems/fssm-0.2.9/lib/fssm/backends/polling.rb:17:in `run'
-org/jruby/RubyArray.java:1603:in `each'
-C:/Laboratoria134/Scout-Installer/vendor/gems/gems/fssm-0.2.9/lib/fssm/backends/polling.rb:17:in `run'
-org/jruby/RubyKernel.java:1419:in `loop'
-C:/Laboratoria134/Scout-Installer/vendor/gems/gems/fssm-0.2.9/lib/fssm/backends/polling.rb:15:in `run'
-C:/Laboratoria134/Scout-Installer/vendor/gems/gems/fssm-0.2.9/lib/fssm/monitor.rb:26:in `run'
-C:/Laboratoria134/Scout-Installer/vendor/gems/gems/fssm-0.2.9/lib/fssm.rb:70:in `monitor'
-C:/Laboratoria134/Scout-Installer/vendor/gems/gems/compass-0.12.2/lib/compass/commands/watch_project.rb:87:in `perform'
-C:/Laboratoria134/Scout-Installer/vendor/gems/gems/compass-0.12.2/lib/compass/commands/base.rb:18:in `execute'
-C:/Laboratoria134/Scout-Installer/vendor/gems/gems/compass-0.12.2/lib/compass/commands/project_base.rb:19:in `execute'
-C:/Laboratoria134/Scout-Installer/vendor/gems/gems/compass-0.12.2/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
-C:/Laboratoria134/Scout-Installer/vendor/gems/gems/compass-0.12.2/lib/compass/exec/sub_command_ui.rb:15:in `run!'
-C:\Laboratoria134\Scout-Installer\bin\compass:12:in `(root)'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Syntax error: Invalid CSS after \"    |font-size:\": expected pseudoclass or pseudoelement, was \" 1.2em;\"\A         on line 30 of C:/Laboratoria134/Proyectos/FinalProject/src/sass/style.scss"; }
+/* line 8, ../sass/style.scss */
+header img {
+  width: 30%;
+  position: absolute;
+  z-index: 500;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+}
+
+/* line 18, ../sass/style.scss */
+#lugar {
+  position: absolute;
+  bottom: 3.5em;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  border-radius: 5px;
+  border: 1px solid #dbd7d7;
+  padding-top: 5px;
+  padding-bottom: 0px;
+  font-size: 1.2em;
+}
+
+/* line 33, ../sass/style.scss */
+#lugar ul {
+  width: 100%;
+  position: absolute;
+  bottom: 15px;
+}
+
+/* line 39, ../sass/style.scss */
+#lugar ul li {
+  padding: 5px 0;
+  margin-left: 10px;
+  margin-right: 50px;
+}
+
+/* line 45, ../sass/style.scss */
+#lugar ul li a {
+  padding: 0px;
+}
+
+/* line 49, ../sass/style.scss */
+#lugar ul li a img {
+  width: 23%;
+  position: absolute;
+  margin-top: 6px;
+}
+
+/* line 55, ../sass/style.scss */
+#lugar ul li a p {
+  margin-left: 60px;
+}
+
+/* line 59, ../sass/style.scss */
+#lugar ul li p:nth-child(4) {
+  margin: 0px;
+  margin-left: 15em;
+  position: absolute;
+  margin-top: -40px;
+  left: -10px;
+}
+
+/* line 67, ../sass/style.scss */
+#lugar p:nth-child(5) {
+  position: absolute;
+  left: 10.7em;
+  margin-top: -17px;
+  color: #848484;
+  font-size: 0.89em;
+}
+
+/* line 75, ../sass/style.scss */
+#lugar button {
+  border-radius: 100%;
+  padding: 4px 6px 0px 6px;
+  border: 1px solid #403f3f;
+  position: absolute;
+  margin-left: 3px;
+  top: 5px;
+}
+
+/* line 84, ../sass/style.scss */
+#lugar p {
+  margin-left: 40px;
+}
+
+/* line 88, ../sass/style.scss */
+#lugar p:nth-child(2) {
+  margin-bottom: 0;
+  font-size: 1.17em;
+}
+
+/* line 93, ../sass/style.scss */
+#lugar p:nth-child(3) {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #848484;
+  font-size: 0.89em;
+}
+
+/* line 102, ../sass/style.scss */
+#btnautos {
+  position: absolute;
+  width: 100%;
+  padding: 8px 0px;
+  border-radius: 5px;
+  background-color: #450f84;
+  border: 1px solid #450f84;
+  color: #fff;
+  font-size: 1.3em;
+  bottom: 0em;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+}
+
+/* line 120, ../sass/style.scss */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 126, ../sass/style.scss */
+#map {
+  height: 100%;
+}
+
+/* line 130, ../sass/style.scss */
+select {
+  width: 50%;
+  padding: 6px 3px;
+  border: none;
+  border-radius: 4px;
+  background-color: #f1f1f1;
+  font-size: 15px;
+}
+
+/* line 139, ../sass/style.scss */
+.ciudadesSelect {
+  margin-top: 0;
+  background-color: whitesmoke;
+  width: 20%;
+  text-align: center;
+  font-size: 15px;
+  float: left;
+  position: fixed;
+  z-index: 10px;
+}
+
+/* line 150, ../sass/style.scss */
+.boton {
+  padding: 4px;
+  background-color: orange;
+  font-size: 15px;
+  width: 100%;
+}
+
+/* line 157, ../sass/style.scss */
+p {
+  font-size: 15px;
+}
+
+@media screen and (min-width: 470px) {
+  /* line 164, ../sass/style.scss */
+  html {
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    height: 100%;
+  }
+
+  /*------>> section #principal <<------*/
+  /* line 171, ../sass/style.scss */
+  #principal .btns button {
+    padding: 1em 3em;
+    font-size: 1.4em;
+    border-radius: 5px;
+    color: #fff;
+    margin: 0px 9px;
+  }
+}

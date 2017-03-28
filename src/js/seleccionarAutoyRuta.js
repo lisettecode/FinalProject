@@ -6,7 +6,7 @@ function initMap() {
     zoom: 14
   });
     
-    
+//Para mostrar la ruta origen - destino:    
 var directionsDisplay = new google.maps.DirectionsRenderer();
 var directionsService = new google.maps.DirectionsService();
 var viaje = new google.maps();
@@ -36,6 +36,5 @@ $('#buscar').live('click', function(){
 $('.opciones_ruta').live('change', function(){
     viaje();
 });
-
 
 

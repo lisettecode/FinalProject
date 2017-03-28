@@ -1,4 +1,13 @@
-function Moto(){
+var miMap;
+
+function initMap() {
+  map = new google.maps.Map(document.getElementById('map'), {
+    center: {lat: -16.45738919999998, lng: -71.5315308},
+    zoom: 14
+  });
+    
+
+function pageXOffset(){
 	this.litrosGastados = function(distancia){
 		
  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
